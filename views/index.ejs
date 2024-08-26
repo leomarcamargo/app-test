@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= projectName %></title>
+    <style>
+        /* Reseta os estilos padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Definir altura e largura completas da página */
+        html, body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Fundo cinza bem leve */
+            color: #333; /* Texto em cinza escuro */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* Estilo simples para a caixa de conteúdo centralizado */
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff; /* Fundo branco */
+            border-radius: 5px; /* Bordas levemente arredondadas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="project-name"><%= projectName %></h1>
+    </div>
+</body>
+</html>
